@@ -1,7 +1,7 @@
 #!/bin/bash
 # Update packages and install dependencies
 apt-get update -y
-apt-get install -y libgl1-mesa-glx awscli
+apt-get install -y libgl1-mesa-glx
 
 # Python packages
 pip install --upgrade pip
