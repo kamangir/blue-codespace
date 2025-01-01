@@ -9,6 +9,7 @@ pip install opencv-python-headless
 pip install abcli blue-geo blueflow
 
 # aws cli
+# https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 cd $HOME
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
