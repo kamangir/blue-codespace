@@ -1,12 +1,16 @@
 {
     "name": "Python & OpenCV",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
     },
-    "postCreateCommand": "apt-get update && apt-get install -y libgl1-mesa-glx && pip install opencv-python-headless && pip install abcli blue-geo blueflow && echo 'source $(python3 -m abcli locate)/.abcli/abcli.sh' >> $HOME/.bashrc",
-    "extensions": [
-        "ms-python.python"
-    ],
+    "postCreateCommand": "bash /workspaces/blue-codespace/.devcontainer/setup.sh",
     "remoteUser": "root"
 }
