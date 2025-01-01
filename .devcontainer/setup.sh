@@ -15,5 +15,6 @@ unzip awscliv2.zip
 ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
 aws --version
 
-# 🪄 abcli -> .bashrc
+# .bashrc
 echo "source $(python3 -m abcli locate)/.abcli/abcli.sh" >>$HOME/.bashrc
+echo "cd /workspaces/blue-codespace; pip3 install -e .; cd blue_codespace/.abcli; source abcli.sh; source actions.sh; source alias.sh; source blue_codespace.sh; source browse.sh" >>$HOME/.bashrc

@@ -10,5 +10,3 @@ function blue_codespace_browse() {
 
     abcli_browse $url
 }
-
-
