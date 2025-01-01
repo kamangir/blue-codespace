@@ -4,7 +4,7 @@ ICON = "🌀"
 
 DESCRIPTION = f"{ICON} a github codespaces terraform."
 
-VERSION = "4.198.1"
+VERSION = "4.199.1"
 
 REPO_NAME = "blue-codespace"
 
