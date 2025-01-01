@@ -2,9 +2,9 @@ NAME = "blue_codespace"
 
 ICON = "🌀"
 
-DESCRIPTION = f"{ICON} a git template for an awesome-bash-cli plugin."
+DESCRIPTION = f"{ICON} a github codespaces terraform."
 
-VERSION = "4.197.1"
+VERSION = "4.198.1"
 
 REPO_NAME = "blue-codespace"
 
