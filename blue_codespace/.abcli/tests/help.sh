@@ -5,24 +5,19 @@ function test_blue_codespace_help() {
 
     local module
     for module in \
-        "@plugin" \
+        "@codespace" \
         \
-        "@plugin pypi" \
-        "@plugin pypi browse" \
-        "@plugin pypi build" \
-        "@plugin pypi install" \
+        "@codespace pypi" \
+        "@codespace pypi browse" \
+        "@codespace pypi build" \
+        "@codespace pypi install" \
         \
-        "@plugin pytest" \
+        "@codespace pytest" \
         \
-        "@plugin test" \
-        "@plugin test list" \
+        "@codespace test" \
+        "@codespace test list" \
         \
-        "@plugin browse" \
-        "@plugin leaf" \
-        "@plugin node" \
-        "@plugin node leaf" \
-        \
-        "@plugin task" \
+        "@codespace browse" \
         \
         "blue_codespace"; do
         abcli_eval ,$options \
@@ -34,5 +29,3 @@ function test_blue_codespace_help() {
 
     return 0
 }
-
-
