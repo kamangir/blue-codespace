@@ -6,5 +6,3 @@ function test_blue_codespace_version() {
     abcli_eval ,$options \
         "blue_codespace version ${@:2}"
 }
-
-

@@ -14,5 +14,3 @@ main(
     },
     logger=logger,
 )
-
-

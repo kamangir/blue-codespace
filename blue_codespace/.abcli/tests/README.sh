@@ -6,5 +6,3 @@ function test_blue_codespace_README() {
     abcli_eval ,$options \
         blue_codespace build_README
 }
-
-

@@ -9,5 +9,3 @@ function blue_codespace_action_git_before_push() {
 
     blue_codespace pypi build
 }
-
-
