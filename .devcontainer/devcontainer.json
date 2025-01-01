@@ -1,5 +1,5 @@
 {
-    "name": "Python & OpenCV",
+    "name": "blue-codespace",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
     "customizations": {
         "vscode": {
